@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Coding Phoenix</title>
+    <!-- My Favicon -->
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/f3726a4d63.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- My Mediaqueries -->
+    <link rel="stylesheet" href="mediaqueries/mediaqueries.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-transparent">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="assets/logo-2.png" alt="Logo" width="150" height="130"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-dark navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="pricing.html">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="request.html">Request Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+   <!-- Pricing -->
+    <section id="pricing">
+        <div class="container py-3">
+            <header>
+                <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+                    <h2 class="fw-bold text-white">Customer Support Pricing</h2>
+                </div>
+            </header>
+            <main>
+                <div class="row row-cols-1 text-center cust">
+                    <div class="col">
+                        <div class="card mb-4 rounded-3">
+                            <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Basic</h4>
+                            </div>
+                            <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$13<small class="text-body-secondary fw-light">/hr</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>SMS Support</li>
+                                <li>Chat Support</li>
+                                <li>Email support</li>
+                            </ul>
+                            <button type="button" class="btn btn-outline-secondary btn-lg px-4 w-100" onclick="ButtonClickRequest()">Request Service</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="card mb-4 rounded-3">
+                            <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Standard</h4>
+                            </div>
+                            <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/hr</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Everything in Basic</li>
+                                <li>Phone Support</li>
+                                <li>Social Media Support</li>
+                            </ul>
+                            <button type="button" class="btn btn-outline-secondary btn-lg px-4 w-100" onclick="ButtonClickRequest()">Request Service</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card mb-4 rounded-3">
+                            <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Premium</h4>
+                            </div>
+                            <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$18<small class="text-body-secondary fw-light">/hr</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Everything in Basic</li>
+                                <li>Everything in Standard</li>
+                                <li>Additional Requests</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary btn-lg px-4 w-100" onclick="ButtonClickRequest()">Contact Us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <div class="container py-3">
+            <header>
+                <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+                    <h2 class="fw-bold text-white">Virtual Assistant Pricing</h2>
+                </div>
+            </header>
+            <main>
+                <div class="row row-cols-1 mb-3 text-center">
+                    <div class="col">
+                        <div class="card mb-4 rounded-3">
+                            <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Standard</h4>
+                            </div>
+                            <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/hr</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Documentation/Research</li>
+                                <li>Email Management</li>
+                                <li>Calendar Management</li>
+                                <li>Blog Management</li>
+                            </ul>
+                            <button type="button" class="btn btn-outline-secondary btn-lg px-4 w-100" onclick="ButtonClickRequest()">Request Service</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="card mb-4 rounded-3">
+                            <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Premium</h4>
+                            </div>
+                            <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$20<small class="text-body-secondary fw-light">/hr</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Everything in Standard</li>
+                                <li>Shopify Management</li>
+                                <li>Social Media Management</li>
+                                <li>Additional Requests</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary btn-lg px-4 w-100" onclick="ButtonClickRequest()">Contact Us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3">
+        <div class="col-md-4 d-flex align-items-center">
+          <span class="mb-md-0">© 2023 <span class="brand">The Coding Phoenix</span></span>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li><a class="text-white" href="https://www.facebook.com/profile.php?id=61554722144159"><i class="fa-brands fa-facebook"></i></a></li>
+          <li><a class="text-white" href="https://www.instagram.com/thecodingphoenix/"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a class="text-white" href="tel:727-851-6132"><i class="fa-solid fa-phone"></i></a></li>
+          <li><a class="text-white" href="mailto:admin@thecodingphoenix.com"><i class="fa-solid fa-envelope"></i></a></li>
+        </ul>
+      </footer>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- Button Onclick -->
+    <!-- pricing page -->
+    <script>   
+        function ButtonClickPricing() {   
+          window.open("pricing.html");  
+        }   
+      </script> 
+      <!-- request page -->
+      <script>   
+        function ButtonClickRequest() {   
+          window.open("request.html");  
+        }   
+      </script> 
+      <!-- contact page -->
+      <script>   
+        function ButtonClickContact() {   
+          window.open("contact.html");  
+        }   
+      </script> 
+</body>
+</html>
+ 
+ 
+ 
+ 
+ 
+ 
+ 

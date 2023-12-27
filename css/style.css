@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Montserrat:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #151D3B;
+    font-family: "Montserrat", sans-serif;
+}
+section {
+    box-shadow: 0 0 3px 3px #D82148;
+}
+
+/* Navbar */
+
+.navbar {
+    box-shadow: 0 0 3px 3px #D82148;
+    padding: 0 16%;
+} 
+.nav-link {
+    margin: 0 1rem;
+}
+
+.nav-link:hover {
+    box-shadow: 0 0 2px 2px #fff;
+    background-color: #D82148;
+    border-radius: 5px;
+}
+
+.active {
+    box-shadow: 0 0 3px 3px #D82148;
+}
+.active:hover {
+    box-shadow: 0 0 2px 2px #fff;
+    background-color: #D82148;
+    border-radius: 5px;
+}
+/* Hero */
+.content {
+    backdrop-filter: blur(90px);
+    color: #bab9b9;
+}
+.content h1 {
+    color: #fff;
+    backdrop-filter: blur(30px);
+}
+.content p {
+    line-height: 2;
+}
+.btn-primary {
+    background-color: #D82148;
+    border-color: #D82148;
+    box-shadow: 0px 2px 5px #fff;
+}
+.btn-primary:hover {
+    background-color: #fff;
+    color: #D82148;
+    border-color: #D82148;
+    box-shadow: 0px 3px 5px #D82148;
+}
+.btn-outline-secondary {
+    background-color: transparent;
+    border-color: #D82148;
+    box-shadow: 0px 2px 5px #D82148;
+}
+.btn-outline-secondary:hover {
+    background-color: #D82148;
+    border-color: #D82148;
+    box-shadow: 0px 2px 5px #fff;
+}
+
+/* Services */
+.feature {
+    background-color: #fcdce4;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px #D82148;
+    margin: 0 10px;
+    padding: 2rem;
+    transition: all .40s ease;
+}
+.feature:hover {
+    transform: scale(1.04) translateY(-5px);
+}
+.feature h3 {
+    color: #D82148;
+    font-weight: 600;
+}
+.feature p {
+    line-height: 2;
+}
+.feature .btn {
+    color: #D82148;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 10px 0;
+}
+.feature .btn-outline-secondary:hover {
+    background-color: #D82148;
+    border-color: #D82148;
+    color: #fff;
+    box-shadow: 0px 3px 5px #151D3B;
+}
+
+/* Pricing */
+.card {
+    background-color: #fcdce4;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px #D82148;
+    margin: 0 10px;
+    padding: 2rem;
+    transition: all .40s ease;
+}
+.card:hover {
+    transform: scale(1.04) translateY(-5px)
+}
+.card-header {
+    background-color: transparent;
+    box-shadow: 0px 3px 5px #D82148;
+}
+.card .btn-outline-secondary:hover {
+    background-color: #D82148;
+    border-color: #D82148;
+    color: #fff;
+    box-shadow: 0px 3px 5px #151D3B;
+}
+.card .btn-primary {
+    box-shadow: 0px 3px 5px #151D3B;
+}
+
+.card .btn-primary:hover {
+    box-shadow: 0px 3px 5px #D82148;
+}
+
+/* CTA */
+.cta {
+    backdrop-filter: blur(90px);
+    color: #bab9b9;
+}
+.cta p {
+    line-height: 2;
+}
+.cta .btn {
+    width: 30%;
+}
+
+/* requests */
+#requests {
+    box-shadow: 4px 4px 5px #D82148;
+}
+.container-lg {
+    width: 50%;
+}
+
+label {
+    color: #fff;
+}
+#requests ::placeholder {
+    color: #15286cc0;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.input-group, .container-lg textarea {
+    box-shadow: 0px 3px 2px #D82148;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 100%;
+}
+
+.input-group:hover, .container-lg textarea:hover {
+    border: 2px solid #D82148;
+    box-shadow: 0px 2px 2px #fff;
+}
+
+.input-group input:focus, .container-lg textarea:focus {
+    border: 2px solid #D82148;
+}
+
+svg {
+    color: #D82148;
+}
+
+/* contact */
+#contact {
+    box-shadow: 4px 4px 5px #D82148;
+}
+#contact ::placeholder {
+    color: #15286cc0;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+/* Footer */
+footer span .brand {
+    color: #D82148;
+}
+footer span {
+    color: #fff;
+    font-size: .8rem;
+}
+footer i {
+    font-size: 1.3rem;
+    margin-right: 10px;
+}
+footer i:hover {
+    color: #D82148;
+}
