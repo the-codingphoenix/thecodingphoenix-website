@@ -144,6 +144,9 @@ section {
 .cta p {
     line-height: 2;
 }
+.cta .btn-primary {
+    width: 20%;
+}
 
 /* requests */
 #requests {

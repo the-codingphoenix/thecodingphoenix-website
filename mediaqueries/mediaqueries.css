@@ -28,8 +28,8 @@
     .container-lg .form-floating label {
         font-size: 1rem;
     }
-    .cta .btn {
-        width: 50%;
+    .cta .btn-primary {
+        width: 30%;
     }
     
 }
@@ -85,6 +85,12 @@
         font-size: 1.2rem;
         padding-bottom: 10px;
     }
+    .cta .container {
+        width: 100%
+    }
+    .cta .btn-primary {
+        width: 40%;
+    }
     /* requests */
     .container-lg {
         width: 100%;
@@ -99,8 +105,14 @@
     }
 }
 
-@media (max-width: 830px) {
-    .cta .btn {
+@media (max-width: 800px) {
+    .cta .btn-primary {
+        width: 50%;
+    }
+}
+
+@media (max-width: 700px) {
+    .cta .btn-primary {
         width: 60%;
     }
 }
