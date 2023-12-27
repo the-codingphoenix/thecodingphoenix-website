@@ -28,6 +28,9 @@
     .container-lg .form-floating label {
         font-size: 1rem;
     }
+    .cta .btn {
+        width: 40%;
+    }
     
 }
 
@@ -82,7 +85,9 @@
         font-size: 1.2rem;
         padding-bottom: 10px;
     }
-
+    .cta .btn {
+        width: 50%;
+    }
     /* requests */
     .container-lg {
         width: 100%;
